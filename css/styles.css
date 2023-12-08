@@ -6,8 +6,12 @@ body {
 
 /*header*/
 
-.first-section {
-  background-color: #2e2f42;
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.cls {
+  display: flex;
 }
 
 .title-first-section {
@@ -22,6 +26,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
 }
 
 .button-first-section {
@@ -36,6 +41,13 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-first-section:hover {
@@ -44,14 +56,6 @@ body {
 
 .button-first-section:focus {
   background-color: #404bbf;
-}
-
-.title-second-section {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .paragraph-second-section {
@@ -97,6 +101,10 @@ body {
   color: #4d5ae5;
 }
 
+.logo link {
+  margin-right: 76px;
+}
+
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
 
 .link {
@@ -125,6 +133,8 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 .button-link {
@@ -199,6 +209,18 @@ body {
   text-transform: uppercase;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -227,12 +249,17 @@ body {
   color: #434455;
 }
 
+.title-second-section {
+  margin-bottom: 8px;
+}
+
 .button-link {
   text-decoration: none;
 }
 
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .title-section {
@@ -262,19 +289,23 @@ body {
   background-color: #404bbf;
 }
 
-.title-second-section {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
 .paragraph-second-section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.section-third {
+  padding-bottom: 120px;
+}
+
+.second-section-list {
+  width: calc((100%-72px) / 4);
+}
+
+.second-section {
+  padding: 120px 0;
 }
 
 .fist-app {
@@ -293,13 +324,7 @@ body {
 }
 
 .title-third-section {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  list-style: none;
+  margin-bottom: 72px;
 }
 
 .button-link:hover {
@@ -307,6 +332,9 @@ body {
   background-color: #404bbf;
 }
 
+.third-section-list {
+  width: calc((100%-48px) / 3);
+}
 .button-link:focus {
   color: #ffffffff;
   background-color: #404bbf;
@@ -314,6 +342,7 @@ body {
 
 .ftr {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
 }
 
 .logo-class {
@@ -339,6 +368,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.lgo-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .span-footer {
@@ -391,6 +425,7 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .address {
