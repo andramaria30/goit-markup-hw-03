@@ -99,9 +99,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
 
-.logo link {
   margin-right: 76px;
 }
 
@@ -215,10 +213,15 @@ body {
   padding: 0 15px;
 }
 
+.logo link {
+  padding: 24px 0;
+}
+
 .nav-header {
   display: flex;
   align-items: center;
   gap: 40px;
+  border: 2px solid blue;
 }
 
 .link {
@@ -368,6 +371,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.img {
+  display: block;
 }
 
 .lgo-link {
