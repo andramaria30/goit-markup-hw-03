@@ -10,6 +10,14 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.nav-header li {
+  margin-right: 40px;
+}
+
+.nav-header li:last-child {
+  margin-right: 0;
+}
+
 .cls {
   display: flex;
 }
@@ -54,15 +62,11 @@ body {
 
 .forth-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .title-forth-section {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 /*Header*/
@@ -112,6 +116,15 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.two-list {
+  width: calc((100%-48%) / 3);
 }
 
 .email-one {
@@ -139,16 +152,9 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
-}
-
-.button-link:hover {
-  color: #ffffffff;
-  background-color: #404bbf;
-}
-
-.button-link:focus {
-  color: #ffffffff;
-  background-color: #404bbf;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .title-main-section {
@@ -157,6 +163,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .paragraph-main-section {
@@ -206,6 +213,9 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .logo link {
@@ -254,10 +264,7 @@ body {
 
 .title-second-section {
   margin-bottom: 8px;
-}
-
-.button-link {
-  text-decoration: none;
+  text-align: center;
 }
 
 .first-section {
@@ -294,10 +301,7 @@ body {
 }
 
 .paragraph-second-section {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  text-align: center;
 }
 
 .section-third {
@@ -334,6 +338,7 @@ body {
 .button-link:hover {
   color: #ffffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .third-section-list {
@@ -342,6 +347,7 @@ body {
 .button-link:focus {
   color: #ffffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .ftr {
@@ -406,22 +412,8 @@ img {
 
 .background-special {
   background-color: #ffffffff;
-}
-
-.button-link {
-  color: var(--WHITE, #fff);
-  text-align: center;
-
-  /* Button Text */
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-  background-color: #f4f4fd;
-  cursor: pointer;
-  color: #4d5ae5;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px 4px;
 }
 
 .span-footer {
@@ -444,4 +436,9 @@ img {
 
 .address {
   font-style: normal;
+}
+
+.main-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
