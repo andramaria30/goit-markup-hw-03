@@ -314,7 +314,7 @@ body {
 }
 
 .second-section-list {
-  width: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section {
@@ -336,7 +336,7 @@ body {
   color: #434455;
 }
 
-.visually .title-third-section {
+.title-third-section {
   margin-bottom: 72px;
 }
 
