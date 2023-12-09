@@ -118,18 +118,14 @@ body {
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
+}
+
+.list-yes {
+  display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   border: 5px solid green;
-}
-
-.list li {
-  margin-right: 24px;
-}
-
-.list li:last-child {
-  margin-right: 0;
 }
 
 .two-list {
@@ -450,4 +446,5 @@ img {
 .main-section {
   padding-top: 96px;
   padding-bottom: 120px;
+  border: 5px solid red;
 }
