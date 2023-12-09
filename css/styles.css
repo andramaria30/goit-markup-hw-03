@@ -385,6 +385,11 @@ body {
   --culoare-secundara: #ff1744;
 }
 
+.lgo.link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .lgo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
