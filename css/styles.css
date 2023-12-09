@@ -124,6 +124,14 @@ body {
   border: 5px solid green;
 }
 
+.list li {
+  margin-right: 24px;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+
 .two-list {
   width: calc((100%-48%) / 3);
 }
