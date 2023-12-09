@@ -99,8 +99,14 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
+  border: 2px solid red;
   margin-right: 76px;
+  padding: 24px 0;
+}
+
+.item-third {
+  border: 2px solid brown;
+  margin-right: 0;
 }
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
@@ -133,6 +139,22 @@ body {
   list-style: none;
   display: flex;
   gap: 24px;
+}
+
+.email-one {
+  border: 2px solid green;
+  margin-right: 40px;
+}
+
+.email-two {
+  border: 2px solid yellow;
+  margin-right: 0;
+}
+
+.list-address {
+  border: 2px solid red;
+  display: flex;
+  gap: 40px;
 }
 
 .button-link {
@@ -222,6 +244,11 @@ body {
   align-items: center;
   gap: 40px;
   border: 2px solid blue;
+}
+
+.item {
+  border: 2px solid red;
+  margin-right: 40px;
 }
 
 .link {
