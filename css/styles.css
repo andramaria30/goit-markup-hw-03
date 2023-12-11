@@ -336,6 +336,7 @@ body {
 .second-section-list {
   width: 100%;
   min-width: 264px;
+  gap: 24px;
 }
 
 .second-section {
