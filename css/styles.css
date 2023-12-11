@@ -303,9 +303,7 @@ body {
 }
 
 .third-section-list {
-  width: 100%;
-  min-width: 264px;
-  gap: 24px;
+  width: calc((100%-48px) / 3);
 }
 
 .button-link:focus {
@@ -455,8 +453,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -494,9 +491,8 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   border: 5px solid green;
-  flex-basis: calc((100%-48px) / 3);
 }
 
 .two-list {
-  flex-basis: calc((100%-48px) / 3);
+  width: calc((100%-48px) / 3);
 }
