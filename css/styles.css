@@ -10,6 +10,15 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  /* border: 1px solid #e7e9fc; */
+  /* border-top: none; */
+}
+
 .nav-header li {
   margin-right: 40px;
 }
@@ -451,15 +460,6 @@ img {
 
 .container-item {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-
   border: 1px solid #e7e9fc;
   border-top: none;
 }
