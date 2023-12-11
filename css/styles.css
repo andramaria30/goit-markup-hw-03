@@ -483,8 +483,5 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   border: 5px solid green;
-}
-
-.two-list {
   flex-basis: calc((100%-48px) / 3);
 }
