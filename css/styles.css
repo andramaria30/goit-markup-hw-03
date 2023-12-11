@@ -430,6 +430,10 @@ img {
 .button-first-section:focus {
   background-color: #404bbf;
 }
+.list-ul {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 
 /*Portfolio*/
 
