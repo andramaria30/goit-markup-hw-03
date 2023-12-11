@@ -302,7 +302,9 @@ body {
 }
 
 .third-section-list {
-  flex-basis: calc((100%-40px) / 3);
+  width: 100%;
+  min-width: 264px;
+  gap: 24px;
 }
 .button-link:focus {
   color: #ffffffff;
@@ -484,5 +486,5 @@ img {
 }
 
 .two-list {
-  flex-basis: calc((100%-40px) / 3);
+  flex-basis: calc((100%-48px) / 3);
 }
