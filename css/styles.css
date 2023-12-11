@@ -64,13 +64,15 @@ body {
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
 
-.logo link {
+.logo.link {
   padding-top: 24px;
   padding-bottom: 24px;
+  border: 7px solid black;
 }
 .link {
   text-decoration: none;
   padding: 32px 16px;
+  border: 5px solid green;
 }
 
 /*logo-list-primul element al listei*/
