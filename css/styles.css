@@ -334,7 +334,8 @@ body {
 }
 
 .second-section-list {
-  width: calc((100%-72) / 4);
+  width: 100%;
+  min-width: 264px;
 }
 
 .second-section {
