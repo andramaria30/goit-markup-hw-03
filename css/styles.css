@@ -496,8 +496,5 @@ img {
 .two-list {
   min-width: 264px;
   width: 100%;
-}
-
-.one {
   width: calc((100%-48px) / 3);
 }
