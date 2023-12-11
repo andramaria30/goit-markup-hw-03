@@ -378,7 +378,6 @@ body {
   width: 100%;
   min-width: 264px;
   gap: 48px;
-  padding: 0;
 }
 .button-link:focus {
   color: #ffffffff;
