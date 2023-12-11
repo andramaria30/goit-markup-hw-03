@@ -513,7 +513,7 @@ img {
 }
 
 .two-list {
-  min-width: 264px;
+  min-width: 360px;
   width: 100%;
   width: calc((100%-48px) / 3);
 }
