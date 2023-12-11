@@ -31,6 +31,8 @@ body {
   padding: 0 15px;
 }
 
+/* Nav Header li */
+
 .nav-header li {
   margin-right: 40px;
 }
@@ -90,13 +92,22 @@ body {
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
 
-.logo link {
+/* .logo link {
   border: 7px solid black;
-}
+} */
+
 .link {
   text-decoration: none;
-  padding: 32px 16px;
-  border: 5px solid green;
+  /* padding: 32px 16px;
+  border: 5px solid green; */
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
 }
 
 /*logo-list-primul element al listei*/
@@ -210,14 +221,6 @@ body {
   border: 2px solid red;
   margin-right: 40px;
 } */
-
-.link:hover {
-  color: #404bbf;
-}
-
-.link:focus {
-  color: #404bbf;
-}
 
 .address {
   font-style: normal;
