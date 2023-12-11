@@ -302,7 +302,9 @@ body {
 }
 
 .third-section-list {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: 100%;
+  min-width: 264px;
+  gap: 24px;
 }
 
 .button-link:focus {
