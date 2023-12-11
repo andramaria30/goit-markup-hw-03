@@ -508,7 +508,6 @@ img {
   border: 5px solid green;
 }
 
-.two-list {
-  min-width: 360px;
-  width: 100%;
+.one {
+  width: calc((100%-48px) / 3);
 }
