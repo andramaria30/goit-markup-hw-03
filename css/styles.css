@@ -262,6 +262,11 @@ body {
   font-style: normal;
 }
 
+.two-list {
+  width: 100%;
+  min-width: 264px;
+  gap: 24px;
+}
 .contact-list {
   font-style: normal;
   list-style: none;
