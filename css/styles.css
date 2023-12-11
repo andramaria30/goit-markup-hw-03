@@ -58,15 +58,12 @@ body {
   color: #4d5ae5;
   border: 2px solid red;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
 
 .logo link {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border: 7px solid black;
 }
 .link {
@@ -441,7 +438,11 @@ img {
 .main-section {
   padding-top: 96px;
   padding-bottom: 120px;
-  border: 5px solid red;
+}
+
+.container-item {
+  padding: 32px 16px;
+  border: 2px solid red;
 }
 
 .container {
