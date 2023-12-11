@@ -131,6 +131,11 @@ body {
   margin-bottom: 72px;
 }
 
+.top-line {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .list-yes {
   display: flex;
   flex-wrap: wrap;
