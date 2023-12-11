@@ -421,6 +421,15 @@ img {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
 }
 
 .button-first-section:hover {
@@ -461,6 +470,16 @@ img {
 
 .title-first-section {
   max-width: 496px;
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
 }
 
 .list-buttons {
