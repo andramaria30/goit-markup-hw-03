@@ -486,7 +486,5 @@ img {
 }
 
 .two-list {
-  width: 100%;
-  min-width: 264px;
-  gap: 48px;
+  flex-basis: calc((100%-40px) / 3);
 }
