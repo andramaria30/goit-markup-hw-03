@@ -68,7 +68,7 @@ body {
   color: #2e2f42;
 }
 
-.logo link {
+.link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -94,6 +94,13 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 /*logo-list-primul element al listei*/
