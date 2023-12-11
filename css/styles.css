@@ -140,7 +140,9 @@ body {
 }
 
 .two-list {
-  width: calc((100%-48%) / 3);
+  width: 100%;
+  min-width: 264px;
+  gap: 48px;
 }
 
 .email-one {
