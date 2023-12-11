@@ -1,3 +1,8 @@
+:root {
+  --culoare-primara: #42a5f5;
+  --culoare-secundara: #ff1744;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -5,10 +10,6 @@ body {
 }
 
 /*HEADER*/
-
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
 
 .container {
   width: 1158px;
@@ -19,16 +20,23 @@ body {
   /* border-top: none; */
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.cls {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .nav-header li {
   margin-right: 40px;
 }
 
 .nav-header li:last-child {
   margin-right: 0;
-}
-
-.cls {
-  display: flex;
 }
 
 .title-third-section {
@@ -57,6 +65,11 @@ body {
 
 /*Stilul pentru "clasa logo-ului*/
 
+.nav-meniu {
+  display: flex;
+  gap: 40px;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -68,6 +81,11 @@ body {
   border: 2px solid red;
   margin-right: 76px;
   padding: 24px 0;
+
+  /*Am adaugat margin si display*/
+
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
@@ -89,8 +107,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .logo-list:hover {
@@ -183,14 +203,13 @@ body {
 .nav-header {
   display: flex;
   align-items: center;
-  gap: 40px;
-  border: 2px solid blue;
+  /* gap: 40px; */
 }
 
-.item {
+/* .item {
   border: 2px solid red;
   margin-right: 40px;
-}
+} */
 
 .link:hover {
   color: #404bbf;
@@ -336,11 +355,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-:root {
-  --culoare-primara: #42a5f5;
-  --culoare-secundara: #ff1744;
 }
 
 .lgo.link {
