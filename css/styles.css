@@ -304,8 +304,6 @@ body {
 
 .third-section-list {
   width: calc((100%-48px) / 3);
-  width: 100%;
-  min-width: 264px;
 }
 
 .button-link:focus {
@@ -496,5 +494,6 @@ img {
 }
 
 .two-list {
-  width: calc((100%-48px) / 3);
+  min-width: 264px;
+  width: 100%;
 }
