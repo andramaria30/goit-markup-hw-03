@@ -68,11 +68,6 @@ body {
   color: #2e2f42;
 }
 
-.link {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 /*Stilul pentru "clasa logo-ului*/
 
 .logo {
@@ -85,7 +80,8 @@ body {
   color: #4d5ae5;
   border: 2px solid red;
   margin-right: 76px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
