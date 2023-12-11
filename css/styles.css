@@ -302,7 +302,7 @@ body {
 }
 
 .third-section-list {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
 .button-link:focus {
