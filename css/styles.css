@@ -241,7 +241,7 @@ body {
 
 .link {
   text-decoration: none;
-  padding: 24px 0;
+  padding: 32px 16px;
 }
 
 .link:hover {
