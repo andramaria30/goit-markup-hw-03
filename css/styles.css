@@ -22,28 +22,6 @@ body {
   display: flex;
 }
 
-.title-first-section {
-  max-width: 496px;
-}
-
-.button-first-section {
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  background-color: #4d5ae5;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.button-first-section:hover {
-  background-color: #404bbf;
-}
-
-.button-first-section:focus {
-  background-color: #404bbf;
-}
-
 .title-third-section {
   font-size: 36px;
   line-height: 1.11;
@@ -95,14 +73,6 @@ body {
   padding: 32px 16px;
 }
 
-.list-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-  border: 2px dotted green;
-}
-
 /*logo-list-primul element al listei*/
 
 .logo-list {
@@ -131,20 +101,6 @@ body {
   margin-bottom: 72px;
 }
 
-.list-yes {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  border: 5px solid green;
-}
-
-.two-list {
-  width: 100%;
-  min-width: 264px;
-  gap: 48px;
-}
-
 .email-one {
   border: 2px solid green;
   margin-right: 40px;
@@ -159,20 +115,6 @@ body {
   border: 2px solid red;
   display: flex;
   gap: 40px;
-}
-
-.button-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  cursor: pointer;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 .title-main-section {
@@ -223,16 +165,6 @@ body {
   text-transform: uppercase;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 .container-forth {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -262,11 +194,6 @@ body {
   font-style: normal;
 }
 
-.two-list {
-  width: 100%;
-  min-width: 264px;
-  gap: 24px;
-}
 .contact-list {
   font-style: normal;
   list-style: none;
@@ -486,8 +413,80 @@ img {
   font-style: normal;
 }
 
+.button-first-section {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-first-section:hover {
+  background-color: #404bbf;
+}
+
+.button-first-section:focus {
+  background-color: #404bbf;
+}
+
+/*Portfolio*/
+
+/*Prima lista */
+
 .main-section {
   padding-top: 96px;
   padding-bottom: 120px;
   border: 5px solid red;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.title-first-section {
+  max-width: 496px;
+}
+
+.list-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  border: 2px dotted green;
+}
+
+.button-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.list-two-main {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  border: 5px solid green;
+}
+
+.two-list {
+  width: 100%;
+  min-width: 264px;
+  gap: 48px;
 }
