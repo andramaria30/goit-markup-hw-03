@@ -368,8 +368,9 @@ body {
 
 .third-section-list {
   width: 100%;
-  max-width: 264px;
+  min-width: 264px;
   gap: 48px;
+  padding: 0;
 }
 .button-link:focus {
   color: #ffffffff;
