@@ -58,8 +58,7 @@ body {
   color: #4d5ae5;
   border: 2px solid red;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 /*Stilul pentru clasa suplimentara "link" al logo ului "logo"*/
@@ -430,6 +429,10 @@ img {
 
 .button-first-section:focus {
   background-color: #404bbf;
+}
+.list-ul {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*Portfolio*/
