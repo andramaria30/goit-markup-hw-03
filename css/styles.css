@@ -302,9 +302,11 @@ body {
 }
 
 .third-section-list {
-  width: calc((100%-48px) / 3);
+  width: 100%;
   min-width: 264px;
+  gap: 24px;
 }
+
 .button-link:focus {
   color: #ffffffff;
   background-color: #404bbf;
